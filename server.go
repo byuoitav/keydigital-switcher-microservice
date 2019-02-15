@@ -11,7 +11,7 @@ import (
 
 func main() {
 	log.SetLevel("info")
-	port := ":8026"
+	port := ":8027"
 	router := common.NewRouter()
 
 	// Functionality Endpoints
