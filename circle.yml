@@ -4,7 +4,7 @@ jobs:
         docker:
             - image: byuoitav/build-env:master
 
-        working_directory: /go/src/github.com/byuoitav/atlona-switch-microservice
+        working_directory: /go/src/github.com/byuoitav/keydigital-switcher-microservice
 
         steps:
             - checkout
